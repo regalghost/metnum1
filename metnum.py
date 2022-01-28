@@ -94,9 +94,10 @@ st.pyplot(fig_2)
 
 header = ["Nilai-t", "Nilai-V"]
 
-tabelNumerik = pd.DataFrame(DataNumerik, columns= header)
+st.text('Tabel t dan V dalam metode Numerik')
+tabelNumerik = pd.DataFrame(DataNumerik, columns=header)
 st.table(tabelNumerik)
 
+st.text('Tabel t dan V dalam metode Analitik')
 tabelAnalitik = pd.DataFrame(DataAnalitik, columns= header)
 st.table(tabelAnalitik)
-
