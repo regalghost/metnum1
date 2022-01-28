@@ -50,8 +50,8 @@ pilihan_C = ["C1", "C2", "C3"]
 
 
 nilai_C = st.selectbox("Pilih nilai C yang diinginkan ", (pilihan_C))
-banyak_t = st.slider(label = "Waktu ke-t", min_value = 1, max_value = 200) + 1
-selisih_t  = st.slider(label = "Galat yang diinginkan", min_value = 1, max_value = 200)
+banyak_t = st.slider(label = "Banyaknya waktu ke-t", min_value = 1, max_value = 200) + 1
+selisih_t  = st.slider(label = "Step-size diinginkan", min_value = 1, max_value = 200)
 
     
 
